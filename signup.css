@@ -1,0 +1,117 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f0f0;
+    background-image:url(photo3.jpg);
+    color: rgb(250, 248, 248);
+    align-items: center;
+    padding-top: 200px;
+}
+
+.login-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #0c0101;
+    border: 1px solid #e9ddddd0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+h1 {
+    text-align: top;
+    margin-bottom: 20px;
+    color: #fd9308ee;
+}
+
+h2 {
+    text-align: top;
+    margin-bottom: 20px;
+    color: #141615d4;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #1a0202;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #140101df;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0a0e0a;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration:none;
+    color: #020d02;
+}
+
+a:hover {
+    color: #081508;
+}
+.sign{
+            
+    display: block;
+    border-radius: 10px;
+    height: auto;
+    width: 400px;
+    justify-content: space-evenly;
+    background-color: #55e98b;
+    padding: 20px;
+    height: 50%;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.sign label{
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+}
+.sign input{
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #241010;
+    border-radius: 4px;
+}
+.submit{
+    width: 100%;
+    padding: 10px;
+    
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
